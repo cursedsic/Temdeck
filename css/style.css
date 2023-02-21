@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', cursive;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(to bottom, #6ab7f5, #fff);
+  min-height: 100vh;
+}
+
+main {
+  display: inline-block;
+  margin-top: 8%;
+  padding: 15px;
+  position: relative;
+
+}
+
+.luma__logo {
+  position: absolute;
+  z-index: 9999;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  height: 10%;
+  opacity: 100%;
+  filter: drop-shadow(0 0mm 4mm rgb(14, 19, 59));
+  opacity: 95%;
+}
+
+/* KKKKKKKKKKKKK */
+
+.temcard {
+    
+  width: 100%;
+  max-width: 425px;
+  opacity: 0.7;
+  opacity: 50%;
+  filter: drop-shadow( 0 0mm 20mm rgb(14, 19, 59));
+
+}
+
+.temtem__image {
+  position: absolute;
+  bottom: 38%;
+  left: 51%;
+  transform: translate(-50%, 20%);
+  height: 40%;
+  opacity: 85%;
+}
+
+.temtem__data {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 800;
+  color: rgb(21, 18, 26);
+  font-size: clamp(12px, 5vw, 25px);
+}
+
+.temtem__name {
+  text-transform: capitalize;
+}
+
+.form {
+  position: absolute;
+  width: 80%;
+  top: 98%;
+  left: 11%;
+}
+
+.input__search {
+  width: 100%;
+  padding: 4%;
+  outline: none;
+  border: 2px solid #cfcfcf;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #3a444d;
+  font-size: clamp(8px, 5vw, 1rem);
+  box-shadow: -3px 4px 0 #888, -5px 7px 0 #333
+}
+
+.buttons {
+  position: absolute;
+  bottom: -25%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, 0);
+  display: flex;
+  gap: 40px;
+}
+
+.button {
+  width: 50%;
+  padding: 4%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: clamp(8px, 5vw, 1rem);
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  background-color: #70d3c9;
+  box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+  
+
+}
+
+.button:active {
+  box-shadow: inset -4px 4px 0 #222;
+  font-size: 0.9rem;
+}

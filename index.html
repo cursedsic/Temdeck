@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Links to resources, including favicon and CSS stylesheet -->
+  <link rel="icon" href="./favicons/Pansuns.webp">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Importing external JavaScript libraries and scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script defer src="./js/script.js"></script>
+
+  <title>Temdeck!</title>
+</head>
+<body>
+
+  <!-- Main content of the page -->
+  <main>
+
+  
+    <!-- Luma Logo -->
+    <img class="luma__logo" src="./Images/Luma_icon.webp" alt="Luma">
+
+    
+    <!-- Image of a TemCard -->
+    <img src="./Images/TemCard01.png" alt="TemCard" class="temcard">
+
+    <!-- Image of a Temtem (will be updated based on search) -->
+    <img src="#" alt="temtem" class="temtem__image">
+
+    <!-- Heading with Temtem data (will be updated based on search) -->
+    <h1 class="temtem__data">
+      <span class="temtem__number"></span>
+      <span class="temtem__name"></span>
+    </h1>
+
+    <!-- Form for searching Temtem by number -->
+    <form class="form">
+      <input
+        type="search"
+        class="input__search"
+        placeholder="Temtem Number"
+        required
+      />
+    </form>
+
+    <!-- Buttons for navigating through search results -->
+    <div class="buttons">
+      <button class="button btn-prev"><Prev> &lt;</button>
+      <button class="button btn-next"> &gt;</button>
+    </div>
+
+  </main>
+  
+</body>
+</html>
